@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- 主体渐变：左上蓝 -> 右下粉 -->
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6CA6F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9B72F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59DC0;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 装饰条渐变 -->
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6CA6F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59DC0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 核心阴影滤镜 (适配 1024 分辨率) -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="4" dy="8" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 1. 图标底座 -->
+  <!-- Windows 11 风格 Squircle：1024px 尺寸下，圆角半径约为 64px -->
+  <rect x="0" y="0" width="1024" height="1024" rx="64" ry="64" fill="#ffffff" />
+
+  <!-- 2. 图标主体内容 (放大 2 倍以适配 1024 画布) -->
+  <g transform="scale(2)">
+      
+      <!-- 2.1 背景层：旋转的渐变方块 -->
+      <rect x="156" y="156" width="200" height="200" 
+            rx="25" ry="25" 
+            transform="rotate(45 256 256)" 
+            fill="url(#mainGradient)" 
+            opacity="0.15" />
+      
+      <!-- 2.2 外部装饰：四个角落的悬浮短线 -->
+      <g stroke="url(#barGradient)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8">
+          <!-- 左上 -->
+          <line x1="120" y1="120" x2="150" y2="150" />
+          <!-- 右上 -->
+          <line x1="392" y1="120" x2="362" y2="150" />
+          <!-- 右下 -->
+          <line x1="392" y1="392" x2="362" y2="362" />
+          <!-- 左下 -->
+          <line x1="120" y1="392" x2="150" y2="362" />
+      </g>
+
+      <!-- 2.3 核心层：深蓝色结构 -->
+      <g fill="#0E1D4A" stroke="#0E1D4A" filter="url(#dropShadow)">
+          
+          <!-- 中心菱形骨架 -->
+          <path d="M 256 160 L 352 256 L 256 352 L 160 256 Z" 
+                fill="none" 
+                stroke-width="32" 
+                stroke-linejoin="round" />
+          
+          <!-- 四个方向的连接臂 -->
+          <g stroke-width="24" stroke-linecap="round">
+              <line x1="256" y1="160" x2="256" y2="110" /> <!-- 上 -->
+              <line x1="352" y1="256" x2="402" y2="256" /> <!-- 右 -->
+              <line x1="256" y1="352" x2="256" y2="402" /> <!-- 下 -->
+              <line x1="160" y1="256" x2="110" y2="256" /> <!-- 左 -->
+          </g>
+
+          <!-- 四个端点圆 -->
+          <circle cx="256" cy="100" r="18" stroke="none" />
+          <circle cx="412" cy="256" r="18" stroke="none" />
+          <circle cx="256" cy="412" r="18" stroke="none" />
+          <circle cx="100" cy="256" r="18" stroke="none" />
+          
+          <!-- 中心点缀 -->
+          <circle cx="256" cy="256" r="12" fill="white" stroke="none" opacity="0.9" />
+      </g>
+      
+      <!-- 2.4 高光层 -->
+      <path d="M 256 175 L 337 256 L 256 337 L 175 256 Z" 
+            fill="none" 
+            stroke="white" 
+            stroke-width="2" 
+            opacity="0.1" 
+            stroke-linejoin="round" />
+  </g>
+</svg>

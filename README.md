@@ -13,19 +13,24 @@
     <a href="https://ailinkx.voidai.cc">
       <img src="https://img.shields.io/badge/官网-访问主页-blue?style=for-the-badge&logo=google-chrome" alt="Website">
     </a>
-    <a href="https://github.com/iniwap/AILinkX/releases">
-      <img src="https://img.shields.io/github/downloads/iniwap/AILinkX/total?style=for-the-badge&color=orange" alt="Downloads">
+    <a href="https://github.com/iniwap/AILinkX/stargazers">
+      <img src="https://img.shields.io/github/stars/iniwap/AILinkX?style=for-the-badge&color=yellow" alt="Stars">
     </a>
     <a href="#开源计划-open-source-roadmap">
-      <img src="https://img.shields.io/badge/开源计划-Coming_Soon-green?style=for-the-badge&logo=github" alt="Open Source">
+      <img src="https://img.shields.io/badge/开发状态-全力开发中-orange?style=for-the-badge&logo=github" alt="Status">
     </a>
   </p>
 
   <br>
 
+  <!-- 暂时隐藏下载按钮，改为敬请期待 -->
+  <!--
   <a href="https://ailinkx.voidai.cc" target="_blank">
     <img src="https://img.shields.io/badge/⬇️_立即下载_Windows_版_(x64)-000000?style=for-the-badge&logo=windows&logoColor=white" height="40">
   </a>
+  -->
+  <h3>🚧 正在全力开发中，敬请期待！🚧</h3>
+  <p>感谢您的关注！我们正在夜以继日地打磨这款产品。<br>请点击右上角 <b>Star ⭐</b> 关注本项目，第一时间获取发布通知。</p>
 </div>
 
 ---
@@ -38,7 +43,7 @@
 
 它拥有**独立的认知、记忆与执行能力**。它能读懂潜台词，能记住三个月前的承诺，甚至能自动帮您下载发票、预约会议。它运行在您的本地，绝对忠诚，绝对私密。
 
-> **⚠️ 注意**：本项目核心代码目前**闭源**，但我们通过 GitHub Releases 分发最新的构建版本。请关注我们的 [开源计划](#-开源计划-open-source-roadmap)。
+> **⚠️ 开发进度说明**：本项目目前正处于**封闭开发阶段**。核心功能架构已确定，正在进行稳定性测试与细节打磨。我们致力于交付一个稳定、安全且惊艳的产品，而非半成品。请耐心等待，我们很快就会与大家见面！
 
 ---
 
@@ -79,14 +84,14 @@ AILinkX 具备自主执行权（Agency），能从碎片化的信息流中提取
 
 ---
 
-## 📥 下载与安装 (Download)
+## 📥 获取与安装 (Coming Soon)
 
-目前仅支持 Windows 10/11 (x64) 系统。macOS 版本正在开发中。
+目前仅支持 Windows 10/11 (x64) 系统。macOS 版本正在规划中。
 
-| 渠道 | 说明 | 链接 |
+| 渠道 | 状态 | 说明 |
 | :--- | :--- | :--- |
-| **官网 (推荐)** | 速度快，包含完整文档与教程 | [前往官网下载](https://ailinkx.voidai.cc) |
-| **GitHub Releases** | 适合开发者，可查看更新日志 | [Download .exe](https://github.com/iniwap/AILinkX/releases) |
+| **官网** | 🚧 开发中 | 访问 [ailinkx.voidai.cc](https://ailinkx.voidai.cc) 获取最新动态 |
+| **GitHub Releases** | ⏳ 等待发布 | 请 **Star** ⭐ 本项目，发布时将自动通知 |
 
 ---
 
@@ -104,9 +109,8 @@ AILinkX 目前处于商业化早期，核心源码暂未公开。但我们不仅
 
 ## 🤝 反馈与交流
 
-- **Bug 反馈**：请直接在 [Issues](https://github.com/iniwap/AILinkX/issues) 中提交。
-- **功能建议**：欢迎在 [Discussions](https://github.com/iniwap/AILinkX/discussions) 中讨论您想要的 Agent 能力。
-- **官方客服**：访问官网获取联系方式。
+- **功能建议**：欢迎在 [Discussions](https://github.com/iniwap/AILinkX/discussions) 中告诉我们要实现哪些 Crazy 的想法。
+- **关注我们**：请收藏官网 [ailinkx.voidai.cc](https://ailinkx.voidai.cc)，那是我们发布首个内测版本的唯一渠道。
 
 ---
 
